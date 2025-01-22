@@ -2,7 +2,7 @@
 
 some of the code is reran through the AI to detect any minor mistakes that the AI made on its first attempt
 
-After that its all done by hand gone thru and perfected
+After that its all done by hand gone thru and fixed
 
 The Laptop:
 https://docs.felis.gg/laptop/installation
