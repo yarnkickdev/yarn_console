@@ -1,0 +1,42 @@
+body {
+    font-family: Consolas, "Courier New", monospace;
+    background-color: #0C0C0C;
+    color: #FFF;
+    margin: 0;
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  #console {
+    flex: 1;
+    overflow-y: auto;
+    max-height: calc(100vh - 30px);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  #console::-webkit-scrollbar {
+    display: none;
+  }
+  .line {
+    margin-bottom: 2px;
+    white-space: pre-wrap;
+  }
+  .input-line {
+    display: flex;
+    align-items: center;
+  }
+  .prompt {
+    margin-right: 5px;
+  }
+  input {
+    background-color: #0C0C0C;
+    color: #FFF;
+    border: none;
+    outline: none;
+    flex: 1;
+  }
+  input::placeholder {
+    color: #555;
+  }
